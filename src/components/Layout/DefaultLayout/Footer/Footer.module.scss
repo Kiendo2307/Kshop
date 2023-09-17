@@ -1,0 +1,48 @@
+.wrapper {
+  width: 100%;
+  height: 372px;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1),
+    0 2px 4px -1px rgba(0, 0, 0, 0.06);
+  display: flex;
+  justify-content: center;
+}
+
+.inner {
+  height: 100%;
+  width: 1200px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.column-footer {
+  width: 306px;
+  height: 336px;
+}
+
+.title {
+  line-height: 1.125;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  color: grey;
+  font-weight: 500px;
+}
+
+.list-link {
+  margin-left: 6px;
+  list-style: none;
+  font-size: 1.2rem;
+}
+
+.icon-pay {
+  list-style: none;
+}
+
+.crop-member {
+  font-size: 12px;
+}
+
+.img-box {
+  width: 149px;
+  height: 30px;
+}

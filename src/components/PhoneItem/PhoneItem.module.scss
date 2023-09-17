@@ -1,0 +1,43 @@
+.wrapper {
+  display: flex;
+  cursor: pointer;
+  align-items: center;
+  padding: 10px;
+
+  &:hover {
+    background-color: #f0f0f0;
+  }
+}
+
+.search-avatar {
+  width: 60px;
+  height: 60px;
+  object-fit: cover;
+}
+
+.search-infor {
+  flex: 1;
+  margin-left: 5px;
+}
+
+.search-name-item {
+  color: var(--black);
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+.search-price-item {
+  display: flex;
+}
+
+.search-price-special {
+  color: #db003b;
+  font-size: 1.4rem;
+  font-weight: 600;
+}
+
+.search-price-old {
+  color: #777;
+  font-size: 1.2rem;
+  text-decoration: line-through;
+}

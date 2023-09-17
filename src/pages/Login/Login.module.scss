@@ -1,0 +1,131 @@
+.inner {
+  position: relative;
+  top: 30px;
+}
+
+.title-login {
+  font-size: 22px;
+  font-weight: 700;
+  margin: auto;
+  text-align: center;
+  min-height: 53px;
+  padding: 10px;
+}
+
+.login-form-container {
+  margin-top: 20px;
+  text-align: center;
+  margin: 0 auto;
+  width: 95%;
+  width: 665px;
+  height: 335px;
+}
+
+.logoLogin {
+  height: 150px;
+}
+
+.login-form {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  margin-top: 20px;
+}
+
+.input1 {
+  outline: none;
+  border: none;
+  width: 665px;
+  height: 40px;
+  border-radius: 3px;
+  box-sizing: border-box;
+  color: #222;
+  font-size: 16px;
+  line-height: 40px;
+  padding: 0 15px;
+  background: transparent;
+  border-bottom: 1px solid #e8e8e8;
+  margin-bottom: 20px;
+  caret-color: #e0052b;
+}
+
+.input2 {
+  outline: none;
+  border: none;
+  width: 665px;
+  height: 40px;
+  border-radius: 3px;
+  box-sizing: border-box;
+  color: #222;
+  font-size: 16px;
+  line-height: 40px;
+  padding: 0 15px;
+  background: transparent;
+  border-bottom: 1px solid #e8e8e8;
+  margin-bottom: 20px;
+  caret-color: #e0052b;
+}
+
+.input1 + .input2:not(:placeholder-shown) ~ .btn-login {
+  background-color: #e0052b;
+  color: #fff;
+}
+
+.forgot {
+  cursor: pointer;
+  margin-left: auto;
+}
+
+.btn-login {
+  height: 40px;
+  width: 665px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  display: block;
+  font-size: 14px;
+  font-weight: 600;
+  margin: 20px auto 0;
+  padding: 11px 0;
+  text-align: center;
+  outline: none;
+}
+
+.btn-login[disabled="disabled"],
+.btn-login:disabled {
+  cursor: not-allowed;
+}
+
+.forgotPass {
+  color: #777;
+  font-size: 13px;
+  line-height: 25px;
+}
+
+.orLogin {
+  margin-top: 20px;
+  align-items: center;
+}
+
+.social {
+  gap: 30px;
+  display: flex;
+  justify-content: center;
+  margin-top: 15px;
+  cursor: pointer;
+}
+
+.btn-social {
+  display: flex;
+}
+
+.img-social {
+  height: 24px;
+  margin-right: 10px;
+}
+
+.register {
+  display: flex;
+  justify-content: center;
+  margin: 32px 0;
+}
